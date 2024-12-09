@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/patient/fetchPatientData/grouped");
+        const response = await axios.get("http://34.227.87.142/api/patient/fetchPatientData/grouped");
         setData(response.data.data);
         setFilteredData(response.data.data); // Initially set filteredData to all records
       } catch (error) {
