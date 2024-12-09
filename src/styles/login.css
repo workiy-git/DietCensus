@@ -1,0 +1,118 @@
+/* Custom Styles for the LoginPage */
+
+/* For images in the left section */
+.images {
+    margin-top: -20rem;
+  }
+  
+  .logo {
+    width: 248px;
+    height: 248px;
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+  
+  .logo1 {
+    margin-top: -12rem;
+    margin-left: -40%;
+  }
+  
+  .logo2 {
+    margin-left: -25rem;
+    margin-top: -27rem;
+    margin-right: -1rem;
+   }
+
+   .logo3 {
+    margin-top: -44rem;
+    margin-right: -17rem;
+    margin-left: -3rem;
+   }
+  
+  /* Customize the form elements */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: #28a745; /* Focus border color */
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  }
+
+  
+  
+  /* Position the eye button inside the password field */
+  .position-relative {
+    position: relative;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .top-50 {
+    top: 50%;
+  }
+  
+  .end-0 {
+    right: 10px;
+  }
+  
+  .translate-middle-y {
+    transform: translateY(-50%);
+  }
+  
+  /* For the submit button */
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  /* Spacing for the login form */
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+    margin-top: rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .w-75 {
+    width: 75%;
+  }
+  
+  .container-fluid {
+    background-color: #f9f9f9;
+  }
+  
+  .bg-light {
+    background-color: #e6f9f0 !important;
+  }
+  
+  .bg-white {
+    background-color: white !important;
+  }
+  
